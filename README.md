@@ -49,7 +49,7 @@ All maps are made using the Paint tool and there are 3 maps in increasing diffic
 #### Simulation Program
 Before running the main python program adjust the code accordingly to the map that is to be simulated.
 
-The things to consider are:
+The things to change before running the simulation are:
 1. The starting position for each map
 ```python
         #starting position for Map1
@@ -96,7 +96,7 @@ The things to consider are:
 ```
 
 ## Results and Conclusion<a name="results-and-conclusion"></a>
-The simulation was successfully implemented with cars, maps, and the NEAT algorithm. Minor errors were encountered during hard map simulations, resolved by reducing the car size from 48 to 38 pixels. The study's results are based on a single recorded simulation; gathering data from multiple simulations may yield consistent but variable results due to differences in starting conditions and species evolution. Conducting multiple simulations doesn't necessarily make the data unreliable. To see the data refer to the paper and here are the simulation videos for [easy map](https://drive.google.com/file/d/15jc2zD3t5u5jZk7R164K4FuWGs15_h5y/view?usp=sharing), [normal map](https://drive.google.com/file/d/1HEcrKpteoUhHBuwBqtMJQnD_OtfW59IJ/view?usp=sharing), and [hard map](https://drive.google.com/file/d/19GLrCVNO2PvQcHF7bOsZs1okujoH1pmi/view?usp=sharing)
+The simulation was successfully implemented with cars, maps, and the NEAT algorithm. Minor errors were encountered during hard map simulations, resolved by reducing the car size from 48 to 38 pixels. The study's results are based on a single recorded simulation; gathering data from multiple simulations may yield consistent but variable results due to differences in starting conditions and species evolution. Conducting multiple simulations doesn't necessarily make the data unreliable. To see the data refer to the [paper](Paper/Cognate-Elective-Research.pdf) and here are the simulation videos for [easy map](https://drive.google.com/file/d/15jc2zD3t5u5jZk7R164K4FuWGs15_h5y/view?usp=sharing), [normal map](https://drive.google.com/file/d/1HEcrKpteoUhHBuwBqtMJQnD_OtfW59IJ/view?usp=sharing), and [hard map](https://drive.google.com/file/d/19GLrCVNO2PvQcHF7bOsZs1okujoH1pmi/view?usp=sharing)
 
 It can be concluded that by using a genetic algorithm specifically NeuroEvolution of Augmenting Topologies (NEAT) that it is effective in training self-driving AI cars in a simulation. The algorithm displayed solutions for the given problems based on what it encounters in its given maps. This shows that this genetic algorithm is fast to learn and fast to optimize a solution for a complex problem.
 
