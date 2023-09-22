@@ -30,7 +30,7 @@ The paper highlights the significance of genetic algorithms, a method inspired b
 The simulation environment will be designed using Pygame. A car object which comes as a image will be loaded along the with designed maps creating the environment. All subsequent functions are created within the main python program will be contained in one place along with the algorithm. The program will load the car, the map, and the configuration file.
 
 #### The Car Object
-![car object](Resources/car-object.png)
+![car object](Resources/car_object.png)
 The image shows how the car will look in the environment. The radar will be displayed using a function and is an efficient illustration of showing the 5 sensor nodes that will serve as the input nodes in the neural network. The nodes will check for. The cars actions depend on the 5 input nodes on what they encounter in the map and along with this the neural network has 2 output nodes which are aligned on what actions the car will do which is to either go left or go right. As the generations progress the better the neural network will determine efficient actions to be taken based on what it has encountered in the previous generations.
 
 #### Maps
