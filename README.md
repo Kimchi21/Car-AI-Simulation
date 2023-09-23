@@ -1,4 +1,4 @@
-# Utilizing a Genetic Algorithm to Implement Self-Driving AI Car Simulation and Evaluating Performance
+# Using a Genetic Algorithm to Implement a Self-Driving AI Car Simulation and Evaluating Its Performance
 
 ![gif](Resources/simulation.gif)
 
